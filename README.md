@@ -1,6 +1,7 @@
 Audio Player
 
 DESIGN
+
 Built on top of  on top of - http://mediaelementjs.com/, customised the setup process to be able to use the audio files from “files and uploads” and  host the code on our own server so that’s it’s easier to fix bugs or add functionality for the audio players in all our courses.
 Folder Structure - 
 build: Media Element JS files (DO NOT EDIT)
@@ -21,9 +22,11 @@ highlight.js -
 * currently adds background color to the audiohighlight and highlight elements at certain audio timestamps 
 
 CONTACT
+
 Ankith Konda / a.konda@uq.edu.au
 
 HOW TO USE
+
 Add files to a folder in your server. 
 edit the following files to allow for use in an edX component:
 index.php - 
@@ -38,5 +41,6 @@ In you edx component add the following for basic functionlity:
 NOTE: data-audiofile must use the full url of the audio file “courses.edx.org/…” and update load.js location to where you are hosting the files. For additional functionality check red.php and read through load.js and index.php to customise
 
 APPEARANCE
+
 small rectangular audio player with basic play, pause and volume
 
