@@ -8,13 +8,16 @@ www: JQuery, Fonts and CSS files
 media: ignore this folder as it’s used by Media Element JS hello world examples
 
 File Structure for 3 main files you’ll be using -
+
 load.js - 
 * finds the div element with the data attributes that you put into an edx component and creates an iFrame with the data provided such as the location of the audio file, and other settings. 
 * functions for play, pause, skipTo and status which uses POST to call the audio player’s functions in the iFrame. 
+
 index.php - 
 * creates the media element audio player using the POST data sent from load.js
 * every 500 milliseconds sends a message back about current time and duration
-highlight.js
+
+highlight.js -
 * currently adds background color to the audiohighlight and highlight elements at certain audio timestamps 
 
 CONTACT
