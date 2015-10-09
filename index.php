@@ -32,8 +32,10 @@
 			$el_name = $_GET['element'];
 		}
 		if(isset($_POST['launch_presentation_return_url'])) {
-			//Add Https:// if using on edX Platform
 			$audiofile = $_POST['custom_audiofile'];
+
+			//uncomment for edx use - 
+			//$audiofile = 'https://'.$_POST['custom_audiofile'];
 			if(isset($_POST['custom_subtitles'])) {
 				$subtitles = 'https://'.$_POST['custom_subtitles']; 
 			}
@@ -59,6 +61,8 @@
 			}
 		} else {
 			$audiofile = str_replace(' ', '+',$_GET['audiofile']);
+			//uncomment for edx use - 
+			//$audiofile = 'https://'.str_replace(' ', '+',$_GET['audiofile']);
 			if(isset($_GET['subtitles'])) {
 				$subtitles = 'https://'.$_GET['subtitles']; 
 			}
