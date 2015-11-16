@@ -3,12 +3,13 @@
 ##DESIGN
 
 Built on top of  on top of - http://mediaelementjs.com/, customised the setup process to be able to use the audio files from “files and uploads” and  host the code on our own server so that’s it’s easier to fix bugs or add functionality for the audio players in all our courses.
+
 **Folder Structure** - 
 * build: Media Element JS files (DO NOT EDIT)
 * www: JQuery, Fonts and CSS files 
 * media: ignore this folder as it’s used by Media Element JS hello world examples
 
-File Structure for 3 main files you’ll be using -
+**File Structure for 3 main files you’ll be using** -
 
 load.js - 
 * finds the div element with the data attributes that you put into an edx component and creates an iFrame with the data provided such as the location of the audio file, and other settings. 
