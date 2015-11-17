@@ -26,6 +26,7 @@ highlight.js -
 
 1. Add files to a folder in your server. 
 2. edit the following files to allow for use in an edX component:
+
 **index.php** - 
 uncomment line 38 and line 65 
 
@@ -33,8 +34,10 @@ uncomment line 38 and line 65
 edit the origin and baseurl variables 
 
 In you edx component add the following for basic functionlity:
+'''
 <div id="myAudioContainer" style="height: 50px !important;" class="audioplayer" data-audiofile=“[use full URL from files and uploads]” data-hidetimeline="false" data-showsubtitles="false"></div>
 <script type='text/javascript' src='load.js'></script> 
+'''
 NOTE: data-audiofile must use the full url of the audio file “courses.edx.org/…” and update load.js location to where you are hosting the files. For additional functionality check red.php and read through load.js and index.php to customise
 
 ##APPEARANCE
