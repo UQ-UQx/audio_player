@@ -22,18 +22,14 @@ index.php -
 highlight.js -
 * currently adds background color to the audiohighlight and highlight elements at certain audio timestamps 
 
-CONTACT
+##HOW TO USE
 
-Ankith Konda / a.konda@uq.edu.au
-
-HOW TO USE
-
-Add files to a folder in your server. 
-edit the following files to allow for use in an edX component:
-index.php - 
+1. Add files to a folder in your server. 
+2. edit the following files to allow for use in an edX component:
+**index.php** - 
 uncomment line 38 and line 65 
 
-load.js -
+**load.js** -
 edit the origin and baseurl variables 
 
 In you edx component add the following for basic functionlity:
@@ -41,7 +37,11 @@ In you edx component add the following for basic functionlity:
 <script type='text/javascript' src='load.js'></script> 
 NOTE: data-audiofile must use the full url of the audio file “courses.edx.org/…” and update load.js location to where you are hosting the files. For additional functionality check red.php and read through load.js and index.php to customise
 
-APPEARANCE
+##APPEARANCE
 
 small rectangular audio player with basic play, pause and volume
+
+##CONTACT
+
+Ankith Konda / a.konda@uq.edu.au
 
