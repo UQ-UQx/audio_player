@@ -34,6 +34,7 @@ uncomment line 38 and line 65
 edit the origin and baseurl variables 
 
 In you edx component add the following for basic functionlity:
+
 ```
 <div id="myAudioContainer" style="height: 50px !important;" class="audioplayer" data-audiofile=“[use full URL from files and uploads]” data-hidetimeline="false" data-showsubtitles="false"></div>
 <script type='text/javascript' src='load.js'></script> 
